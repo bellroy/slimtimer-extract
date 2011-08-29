@@ -14,7 +14,7 @@ end
 namespace :slimtimer do
 
   desc "Fetch all time entries"
-  task :fetch do
-    
+  task :fetch => :setup do
+    Slimtimer.new.fetch_tasks_and_entries
   end
 end
