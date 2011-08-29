@@ -1,16 +1,24 @@
 GEM
   remote: http://gemcutter.org/
   specs:
+    aaronh-chronic (0.3.9)
+    activesupport (3.0.10)
     crack (0.1.8)
     httparty (0.7.8)
       crack (= 0.1.8)
+    i18n (0.6.0)
     json (1.5.3)
     rake (0.9.2)
+    whenever (0.6.8)
+      aaronh-chronic (>= 0.3.9)
+      activesupport (>= 2.3.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   httparty
+  i18n
   json
   rake
+  whenever
