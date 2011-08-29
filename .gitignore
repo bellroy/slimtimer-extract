@@ -1,4 +1,6 @@
 config/database.yml
+config/slimtimer.yml
+
 # Vagrant
 .vagrant
 Vagrantfile

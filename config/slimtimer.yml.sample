@@ -1,0 +1,12 @@
+api_key:
+users:
+  -
+    name:  Karl
+    username:
+    password:
+  -
+    name:
+    email:
+    password:
+god: Karl
+god_tag:
